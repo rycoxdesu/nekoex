@@ -17,10 +17,6 @@ This repository contains automatically generated offset files for Roblox. These 
 | `killswitch.json` | Remote killswitch configuration |
 | `version.json` | Current Roblox version tracking |
 
-## 🔄 Auto-Update
-
-Files are automatically updated when Roblox releases a new version. The dumper tools scan the latest Roblox client and push updated offsets to this repository.
-
 ## ⚠️ Disclaimer
 
 This repository is for **educational purposes only**. 
