@@ -1,47 +1,23 @@
-# NekoEx - Roblox Offset Repository
+# NekoEx
 
-![Roblox](https://img.shields.io/badge/Roblox-Latest-red)
-![Auto Update](https://img.shields.io/badge/Auto-Update-green)
-![License](https://img.shields.io/badge/License-Proprietary-blue)
+Roblox FFlag offsets, auto-updated every new version.
 
-## 📋 Overview
+Offsets are from the LIVE channel, which is the main public version most people use.
 
-This repository contains automatically generated offset files for Roblox. These files are used by NekoCircle External for real-time FFlag injection and memory operations.
+## Files
 
-## 📁 Files
+| File             | Description                |
+| ---------------- | -------------------------- |
+| `FastFlags.hpp`  | FFlag offsets (C++ header) |
+| `FastFlags.json` | FFlag offsets (JSON)       |
 
-| File              | Description                              |
-| ----------------- | ---------------------------------------- |
-| `FastFlags.hpp`   | Contains 12,000+ FFlag offsets           |
-| `offset.hpp`      | Instance structure offsets (171 offsets) |
-| `killswitch.json` | Remote killswitch configuration          |
-| `version.json`    | Current Roblox version tracking          |
-
-## 🔄 Auto-Update
-
-Files are automatically updated when Roblox releases a new version. The dumper tools scan the latest Roblox client and push updated offsets to this repository.
-
-## ⚠️ Disclaimer
-
-This repository is for **educational purposes only**.
-
-- These offsets are obtained through reverse engineering
-- Usage may violate Roblox Terms of Service
-- The authors are not responsible for any consequences
-
-## 🔗 Raw URLs
+## Raw URLs
 
 ```
 https://raw.githubusercontent.com/rycoxdesu/nekoex/main/FastFlags.hpp
-https://raw.githubusercontent.com/rycoxdesu/nekoex/main/offset.hpp
-https://raw.githubusercontent.com/rycoxdesu/nekoex/main/killswitch.json
-https://raw.githubusercontent.com/rycoxdesu/nekoex/main/version.json
+https://raw.githubusercontent.com/rycoxdesu/nekoex/main/FastFlags.json
 ```
 
-## 📅 Last Updated
+## Disclaimer
 
-Check `version.json` for the latest Roblox version and update date.
-
----
-
-© 2025 NekoCircle. All rights reserved.
+For educational purposes only. Usage may violate Roblox ToS.
